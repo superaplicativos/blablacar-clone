@@ -60,6 +60,19 @@ video {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.72) 55%, rgba(0, 0, 0, 0.88) 100%);
 }
 
+.landing-header .caption-content {
+  padding-top: 24px;
+}
+
+.module,
+.module-small {
+  padding: 80px 0;
+}
+
+.module-extra-small {
+  padding: 18px 0;
+}
+
 .section-title {
   margin-bottom: 10px;
 }
@@ -121,7 +134,12 @@ body[data-page="index"] .module-title + .module-subtitle {
   }
 
   .caption-content {
-    padding: 0 16px;
+    padding: 14px 16px 0;
+  }
+
+  .module,
+  .module-small {
+    padding: 56px 0;
   }
 
   .footer-links {
